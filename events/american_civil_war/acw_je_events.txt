@@ -211,9 +211,9 @@ acw_je_events.2 = {
 						is_homeland = cu:dixie
 						NOT = { is_homeland = cu:yankee }
 						NOR = {
-							s:STATE_PENNSYLVANIA = this
-							s:STATE_PENNSYLVANIA = this
-							s:STATE_PENNSYLVANIA = this
+							s:STATE_DISTRICT_OF_COLUMBIA = this
+							s:STATE_DISTRICT_OF_COLUMBIA = this
+							s:STATE_DISTRICT_OF_COLUMBIA = this
 						}
 					}
 				}
@@ -233,9 +233,9 @@ acw_je_events.2 = {
 						is_homeland = cu:yankee
 						NOT = { is_homeland = cu:dixie }
 						NOR = {
-							s:STATE_PENNSYLVANIA = this
-							s:STATE_PENNSYLVANIA = this
-							s:STATE_PENNSYLVANIA = this
+							s:STATE_DISTRICT_OF_COLUMBIA = this
+							s:STATE_DISTRICT_OF_COLUMBIA = this
+							s:STATE_DISTRICT_OF_COLUMBIA = this
 						}
 					}
 				}

@@ -1199,7 +1199,7 @@ agitator_harriet_tubman = {
 	ideology = ideology_abolitionist
 	birth_date = 1822.3.1 # exact birthdate unknown
 	dna = dna_harriet_tubman
-	home_region = STATE_PENNSYLVANIA
+	home_region = STATE_DISTRICT_OF_COLUMBIA
 	traits = {
 		brave
 		charismatic

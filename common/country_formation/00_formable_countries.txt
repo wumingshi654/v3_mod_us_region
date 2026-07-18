@@ -759,8 +759,8 @@ HRE = {
 
 CLI = {
 	states = {
-		STATE_SOUTH_CAROLINA
-		STATE_SOUTH_CAROLINA
+		STATE_NORTH_CAROLINA
+		STATE_NORTH_CAROLINA
 	}
 
 	required_states_fraction = 1

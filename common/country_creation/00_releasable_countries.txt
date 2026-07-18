@@ -222,7 +222,7 @@ ASA = {
 	states = {
 		STATE_GEORGIA
 		STATE_LOUISIANA
-		STATE_SOUTH_CAROLINA
+		STATE_NORTH_CAROLINA
 		STATE_MISSISSIPPI
 		STATE_ALABAMA
 		STATE_FLORIDA
@@ -2755,7 +2755,7 @@ CNW = {
 
 NCR = {
 	states = {
-		STATE_SOUTH_CAROLINA
+		STATE_NORTH_CAROLINA
 	}
 
 	ai_will_do = { always = no }
@@ -2767,7 +2767,7 @@ NCR = {
 
 SCR = {
 	states = {
-		STATE_SOUTH_CAROLINA
+		STATE_NORTH_CAROLINA
 	}
 
 	ai_will_do = { always = no }
@@ -2779,8 +2779,8 @@ SCR = {
 
 CLI = {
 	states = {
-		STATE_SOUTH_CAROLINA
-		STATE_SOUTH_CAROLINA
+		STATE_NORTH_CAROLINA
+		STATE_NORTH_CAROLINA
 	}
 
 	ai_will_do = { always = no }

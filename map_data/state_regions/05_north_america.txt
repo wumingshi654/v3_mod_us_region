@@ -1,4 +1,25 @@
-﻿
+STATE_DISTRICT_OF_COLUMBIA = {
+    id = 265
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x038B77" "x0804CE" "x0E3435" "x16482D" "x242311" "x265ADC" "x308080" "x345319" "x3CC08F" "x413E60" "x44578C" "x4CB9DF" "x501463" "x503169" "x533151" "x552873" "x56401E" "x576240" "x5E6C0F" "x606D4F" "x67DB6F" "x691121" "x6C494D" "x700080" "x703866" "x708000" "x708080" "x716F90" "x75195D" "x7CF534" "x888194" "x8C787A" "x976E86" "xA14B4E" "xAC9DC0" "xACC198" "xAEB9F5" "xAF1AEE" "xB00000" "xB7EDCF" "xBC1A94" "xC0C080" "xC4DED4" "xC786AB" "xCDBD85" "xDD6B3C" "xE2ACEE" "xEBA646" "xF00000" "xF08000" "xF08080" "xF1C228" }
+    traits = { state_trait_appalachian_coal state_trait_american_chestnuts state_trait_four_states_integration }
+    city = xB00000
+    port = x377E55
+    farm = xC0C080
+    mine = xE2ACEE
+    wood = xC4DED4
+    arable_land = 310
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" "building_maize_farm" }
+    capped_resources = {
+        building_logging_camp = 30
+        building_coal_mine = 120
+        building_iron_mine = 60
+        building_fishing_wharf = 40
+        building_sulfur_mine = 30
+    }
+    naval_exit_id = 3067
+}
+
 STATE_LOUISIANA = {
     id = 266
     subsistence_building = "building_subsistence_farm"
@@ -46,24 +67,22 @@ STATE_NEW_YORK = {
 }
 
 STATE_VIRGINIA = {
-	id = 268
-	subsistence_building = "building_subsistence_farm"
-	provinces = { "x056BA1" "x08C98C" "x29E263" "x304080" "x355247" "x40B0C0" "x4BD8B5" "x50F06C" "x764809" "x76D2B5" "x79AC2A" "x7C5B12" "x806B93" "x8D147E" "x8E2B78" "x90316A" "x95CEBC" "x9D6816" "xAA8809" "xB0C000" "xB5B538" "xBF8CE2" "xC070C0" "xC0B0C0" "xC8ABE0" "xF00080" "xF13564" "xF47C46" "x06D57E" "x08D472" "x0F5821" "x2EA16C" "x30C000" "x364F38" "x366DF2" "x38925B" "x43DB99" "x579843" "x7416CB" "x7755AD" "x82CE19" "x845FC0" "x999738" "xAD371C" "xB04000" "xB865A2" "xCB120B" }
-	traits = { state_trait_appalachian_coal state_trait_american_chestnuts state_trait_two_states_integration }
-	city = "x056BA1"
-	port = "x40B0C0"
-	farm = "x304080"
-	mine = "x8D147E"
-	wood = "xF47C46"
-	naval_exit_id = 3067
-	arable_land = 230
-	arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" }
-		capped_resources = {
-		building_coal_mine = 140
-		building_iron_mine = 54
-		building_logging_camp = 34
-		building_fishing_wharf = 8
-	}
+    id = 307
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x056BA1" "x06D57E" "x08C98C" "x08D472" "x0F5821" "x29E263" "x2EA16C" "x304080" "x30C000" "x355247" "x364F38" "x366DF2" "x38925B" "x40B0C0" "x43DB99" "x4BD8B5" "x50F06C" "x579843" "x7416CB" "x764809" "x76D2B5" "x7755AD" "x79AC2A" "x7C5B12" "x806B93" "x82CE19" "x845FC0" "x8D147E" "x8E2B78" "x90316A" "x95CEBC" "x999738" "x9D6816" "xAA8809" "xAD371C" "xB04000" "xB0C000" "xB5B538" "xB865A2" "xBF8CE2" "xC070C0" "xC0B0C0" "xC8ABE0" "xCB120B" "xF00080" "xF13564" "xF47C46" }
+    traits = { state_trait_appalachian_coal state_trait_american_chestnuts }
+    city = x056BA1
+    port = x355247
+    farm = x304080
+    mine = x8D147E
+    wood = xF47C46
+    arable_land = 210
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_vineyard" }
+    capped_resources = {
+        building_logging_camp = 30
+        building_coal_mine = 80
+        building_iron_mine = 40
+    }
 }
 
 STATE_ALASKA = {
@@ -406,7 +425,6 @@ STATE_MINNESOTA = {
     }
 }
 
-
 STATE_INDIANA = {
     id = 286
     subsistence_building = "building_subsistence_farm"
@@ -425,21 +443,21 @@ STATE_INDIANA = {
 }
 
 STATE_MICHIGAN = {
-	id = 287
-	subsistence_building = "building_subsistence_farm"
-	provinces = { "x055AA0" "x0B0C98" "x11C5A2" "x1BA1F4" "x2455A8" "x286086" "x28FA31" "x319D44" "x35EAD6" "x4017DC" "x40E080" "x42E736" "x43FD92" "x4D1908" "x4FD630" "x50412A" "x53CE7E" "x569D0A" "x5E05A9" "x5F7EE0" "x6486DD" "x649AB4" "x69C402" "x700040" "x70C000" "x781E75" "x7F1133" "x83AA0C" "x87E8D4" "x8BD355" "x8E8D40" "x9293C6" "x94D7BA" "x95E27E" "x96E11B" "xAE4DDC" "xB34192" "xB41FE2" "xC1AE21" "xC44B48" "xD49785" "xE24063" "xE51181" "xE65320" "xE76A88" "xECE19B" "xF01A7B" "xF0C000" "xF62CC4" "xFDA0D8" "x049BAB" "x092B18" "x0F38D4" "x16E7BF" "x24883A" "x397AA3" "x39FC40" "x3C47F9" "x3E0D88" "x3E86B7" "x49B5A8" "x4A71CA" "x4B51EB" "x520EFD" "x52A5FD" "x5816B1" "x5FE739" "x618762" "x657999" "x68A47D" "x779B77" "x794B5B" "x80A0C0" "x887276" "x89F507" "x900040" "x941A5A" "x9C97B2" "x9F4495" "xA5C179" "xA6AF2F" "xAA87FB" "xAFF4FA" "xBFF7BC" "xCB7277" "xD04040" "xD0C040" "xD5A704" "xE2A342" "xE3903C" "xE49CB0" "xE6D0B8" "xEB502A" "xEF4297" "xF54CF0" "xF57B6E" "xF6BC89" }
-	traits = { state_trait_great_lakes state_trait_two_states_integration }
-	city = "x6486DD"
-	farm = "x2455A8"
-	mine = "xFDA0D8"
-	wood = "xC1AE21"
-	arable_land = 360
-	arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_vineyard" }
-		capped_resources = {
-		building_iron_mine = 84
-		building_sulfur_mine = 64
-		building_logging_camp = 85
-	}
+    id = 287
+    subsistence_building = building_subsistence_farm
+    provinces = { x055AA0 x0B0C98 x11C5A2 x1BA1F4 x2455A8 x286086 x28FA31 x319D44 x35EAD6 x4017DC x40E080 x42E736 x43FD92 x4D1908 x4FD630 x50412A x53CE7E x569D0A x5E05A9 x5F7EE0 x6486DD x649AB4 x69C402 x700040 x70C000 x781E75 x7F1133 x83AA0C x87E8D4 x8BD355 x8E8D40 x9293C6 x94D7BA x95E27E x96E11B xAE4DDC xB34192 xB41FE2 xC1AE21 xC44B48 xD49785 xE24063 xE51181 xE65320 xE76A88 xECE19B xF01A7B xF0C000 xF62CC4 xFDA0D8 x049BAB x092B18 x0F38D4 x16E7BF x24883A x397AA3 x39FC40 x3C47F9 x3E0D88 x3E86B7 x49B5A8 x4A71CA x4B51EB x520EFD x52A5FD x5816B1 x5FE739 x618762 x657999 x68A47D x779B77 x794B5B x80A0C0 x887276 x89F507 x900040 x941A5A x9C97B2 x9F4495 xA5C179 xA6AF2F xAA87FB xAFF4FA xBFF7BC xCB7277 xD04040 xD0C040 xD5A704 xE2A342 xE3903C xE49CB0 xE6D0B8 xEB502A xEF4297 xF54CF0 xF57B6E xF6BC89 }
+    traits = { state_trait_great_lakes state_trait_two_states_integration }
+    city = x6486DD
+    farm = x2455A8
+    mine = xFDA0D8
+    wood = xC1AE21
+    arable_land = 360
+    arable_resources = { building_maize_farm building_livestock_ranch building_vineyard building_tobacco_plantation }
+    capped_resources = {
+        building_iron_mine = 84
+        building_sulfur_mine = 64
+        building_logging_camp = 85
+    }
 }
 
 STATE_OHIO = {
@@ -591,34 +609,6 @@ STATE_GEORGIA = {
     naval_exit_id = 3146
 }
 
-
-
-
-STATE_PENNSYLVANIA = {
-	id = 297
-	subsistence_building = "building_subsistence_farm"
-	provinces = { "x038B77" "x0804CE" "x242311" "x265ADC" "x308080" "x345319" "x413E60" "x4CB9DF" "x501463" "x533151" "x56401E" "x606D4F" "x67DB6F" "x691121" "x6C494D" "x703866" "x75195D" "x7CF534" "x8C787A" "x976E86" "xAC9DC0" "xACC198" "xAF1AEE" "xB00000" "xB7EDCF" "xBC1A94" "xC0C080" "xC4DED4" "xC786AB" "xCDBD85" "xDD6B3C" "xE2ACEE" "xF08080" "xF1C228" "x503169" "x552873" "x716F90" "xA14B4E" "xF00000" "x44578C" "x700080" "x0E3435" "x16482D" "x3CC08F" "x576240" "x5E6C0F" "x708080" "x888194" "xAEB9F5" "xF08000" "x708000" "xEBA646" }
-	traits = { state_trait_ohio_river state_trait_appalachian_coal state_trait_american_chestnuts state_trait_five_states_integration }
-	city = "xB00000"
-	farm = "xC0C080"
-	mine = "xE2ACEE"
-	wood = "xC4DED4"
-	arable_land = 263
-	arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" }
-		capped_resources = {
-		building_coal_mine = 120
-		building_iron_mine = 102
-		building_logging_camp = 39
-		building_fishing_wharf = 25
-		building_sulfur_mine = 30
-	}
-	resource = {
-        type = "building_oil_rig"
-        undiscovered_amount = 50
-    }
-}
-
-
 STATE_ILLINOIS = {
     id = 299
     subsistence_building = "building_subsistence_farm"
@@ -636,8 +626,6 @@ STATE_ILLINOIS = {
         building_logging_camp = 22
     }
 }
-
-
 
 STATE_MASSACHUSETTS = {
     id = 302
@@ -661,9 +649,25 @@ STATE_MASSACHUSETTS = {
     naval_exit_id = 3067
 }
 
-
-
-
+STATE_NORTH_CAROLINA = {
+    id = 306
+    subsistence_building = building_subsistence_farm
+    provinces = { x007040 x00F040 x0F9A00 x1B47BD x228851 x338BD7 x3C4F8A x3EA432 x4DC66C x58A1C9 x5961F9 x5B809B x644A75 x6FBF63 x711CB6 x7342E7 x758494 x785402 x7BF507 x7DE315 x7F5918 x807040 x8070C0 x81AAED xA59977 xABF402 xC58DAF xD01C13 xD8D851 xDBBF9F xE5DA13 xF3C9D3 x0070C0 x007602 x1FA379 x2C6AA0 x31E5D4 x3B0FAE x47BF09 x6F7B23 x7AAA59 x8998F6 x8E69FE x9B1B8B xAF8C38 xD4D27E xD641CB xE2F040 xF5B3A1 xF83D99 xF93340 }
+    traits = { state_trait_appalachian_coal state_trait_two_states_integration }
+    city = xA59977
+    port = x00F040
+    farm = x7342E7
+    mine = x7BF507
+    wood = x0F9A00
+    arable_land = 280
+    arable_resources = { building_rice_farm building_maize_farm building_livestock_ranch building_cotton_plantation building_tobacco_plantation building_vineyard building_dye_plantation }
+    capped_resources = {
+        building_coal_mine = 32
+        building_logging_camp = 26
+        building_fishing_wharf = 11
+    }
+    naval_exit_id = 3146
+}
 
 STATE_UTAH = {
     id = 307
@@ -684,26 +688,6 @@ STATE_UTAH = {
         type = "building_oil_rig"
         undiscovered_amount = 20
     }
-}
-
-STATE_SOUTH_CAROLINA = {
-	id = 308
-	subsistence_building = "building_subsistence_farm"
-	provinces = { "x0070C0" "x007602" "x1FA379" "x2C6AA0" "x31E5D4" "x3B0FAE" "x47BF09" "x6F7B23" "x7AAA59" "x8998F6" "x8E69FE" "x9B1B8B" "xAF8C38" "xD4D27E" "xD641CB" "xE2F040" "xF5B3A1" "xF83D99" "xF93340" "x007040" "x00F040" "x0F9A00" "x1B47BD" "x228851" "x338BD7" "x3C4F8A" "x3EA432" "x4DC66C" "x58A1C9" "x5961F9" "x5B809B" "x644A75" "x6FBF63" "x711CB6" "x7342E7" "x758494" "x785402" "x7BF507" "x7DE315" "x7F5918" "x807040" "x8070C0" "x81AAED" "xA59977" "xABF402" "xC58DAF" "xD01C13" "xD8D851" "xDBBF9F" "xE5DA13" "xF3C9D3" }
-	traits = { state_trait_two_states_integration }
-	city = "x6F7B23"
-	port = "xAF8C38"
-	farm = "x007602"
-	mine = "xF83D99"
-	wood = "x31E5D4"
-	naval_exit_id = 3146
-	arable_land = 280
-	arable_resources = { "building_rice_farm" "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_dye_plantation" }
-		capped_resources = {
-		building_logging_camp = 26
-		building_fishing_wharf = 11
-		building_coal_mine = 32
-	}
 }
 
 STATE_HAWAIIAN_ISLANDS = {

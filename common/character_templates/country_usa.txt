@@ -41,7 +41,7 @@ USA_john_calhoun = {
 	ideology = ideology_slaver
 	role = character_role_magnate # As a proxy for the Slave Power
 	holding_type = building_manor_house
-	home_region = STATE_SOUTH_CAROLINA
+	home_region = STATE_NORTH_CAROLINA
 	traits = {
 		bigoted
 		experienced_political_operator
@@ -209,7 +209,7 @@ USA_elie_augustus_frederick_lavallette = { # USA, Admiral
 	ideology = ideology_moderate
 	birth_date = 1776.2.9
 	dna = dna_elie_af_lavallette
-	home_region = STATE_PENNSYLVANIA
+	home_region = STATE_DISTRICT_OF_COLUMBIA
 	hq = region_atlantic_coast
 	traits = {
 		brave
@@ -360,7 +360,7 @@ usa_thomas_edison_character_template = {
     ideology = ideology_pacifist
     interest_group = ig_intelligentsia
     birth_date = 1847.2.11
-	home_region = STATE_PENNSYLVANIA
+	home_region = STATE_DISTRICT_OF_COLUMBIA
     traits = {
         ambitious
         engineer
@@ -728,7 +728,7 @@ usa_admiral_shubrick = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1790.10.31
-	home_region = STATE_SOUTH_CAROLINA
+	home_region = STATE_NORTH_CAROLINA
 	dna = dna_william_shubrick
 	traits = {
 		experienced_naval_commander
@@ -843,7 +843,7 @@ usa_admiral_buchanan = {
 	commander_rank = default
 	interest_group = ig_armed_forces
 	birth_date = 1800.9.17
-	home_region = STATE_PENNSYLVANIA
+	home_region = STATE_DISTRICT_OF_COLUMBIA
 	dna = dna_franklin_buchanan
 	traits = {
 		experienced_naval_commander
@@ -1163,7 +1163,7 @@ USA_william_cramp = { # William Cramp, William Cramp and Sons
     culture = cu:yankee
     interest_group = ig_industrialists
     ideology = ideology_moderate
-	home_region = STATE_PENNSYLVANIA
+	home_region = STATE_DISTRICT_OF_COLUMBIA
     traits = {
         ambitious
         tactful
@@ -1224,7 +1224,7 @@ usa_carnegie_character_template = {
     religion = rel:protestant
     ideology = ideology_market_liberal
     interest_group = ig_industrialists
-	home_region = STATE_PENNSYLVANIA
+	home_region = STATE_DISTRICT_OF_COLUMBIA
     birth_date = 1835.11.25
     traits = {
         ambitious

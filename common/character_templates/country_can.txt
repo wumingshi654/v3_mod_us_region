@@ -468,7 +468,7 @@ ORG_william_slacum = {
 	ig_leader = yes
 	interest_group = ig_armed_forces
 	ideology = ideology_moderate
-    home_region = STATE_PENNSYLVANIA
+    home_region = STATE_DISTRICT_OF_COLUMBIA
 	traits = {
 		direct
 	}

@@ -947,7 +947,7 @@ acw_events.9 = {
 			}
 		}
 		else = {
-			s:STATE_PENNSYLVANIA ?= {
+			s:STATE_DISTRICT_OF_COLUMBIA ?= {
 				random_scope_state = {
 					save_scope_as = acw_victory_capital_scope
 				}

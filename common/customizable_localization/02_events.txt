@@ -381,7 +381,7 @@ place_event = {
 		trigger = {
 			exists = c:USA
 			c:USA ?= THIS
-			owns_entire_state_region = STATE_PENNSYLVANIA
+			owns_entire_state_region = STATE_DISTRICT_OF_COLUMBIA
 		}
 		localization_key = place_event_whitehouse
 	}

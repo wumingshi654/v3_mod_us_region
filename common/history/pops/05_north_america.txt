@@ -1,22 +1,79 @@
 ﻿POPS = {
-	s:STATE_PENNSYLVANIA = {
-		# total population of DC in 1830 was 30261, and 33745 in 1840. 32003 serves as a workable average.
-		# + Fairfax County, VA. Total pop in 1830 was 9204, 5203 free/4001 slaves
-		# + Montgomery Co, Prince George's Co, Charles co, St. Mary's Co and Calvert Co in MD- 80418 total, 42176 free/38242 slaves
-		# Number of actual pops adjusted from historical research to better fit the buildings
+	s:STATE_DISTRICT_OF_COLUMBIA = {
 		region_state:USA = {
-			create_pop = {
+create_pop = {
 				culture = yankee
 				size = 27544
 			}
-			create_pop = {
+create_pop = {
 				culture = dixie
 				size = 86263
 			}
-			create_pop = {
+create_pop = {
 				pop_type = slaves
 				culture = afro_american
 				size = 7818
+			}
+create_pop = {
+				culture = dixie
+				size = 251997
+			}
+create_pop = {
+				culture = afro_american
+				size = 48541
+			}
+create_pop = {
+				pop_type = slaves
+				culture = afro_american
+				size = 58467
+			}
+create_pop = {
+				culture = yankee
+				size = 1250496
+			}
+create_pop = {
+				culture = yankee
+				religion = jewish
+				size = 2000
+			}
+create_pop = {
+				culture = yankee
+				religion = catholic
+				size = 144008
+			}
+create_pop = {
+				culture = irish
+				size = 59800
+			}
+create_pop = {
+				culture = afro_american
+				size = 43996
+			}
+create_pop = {
+				culture = dixie
+				size = 77000
+			}
+create_pop = {
+					culture = afro_american
+					size = 16919
+			}
+create_pop = {
+					pop_type = slaves
+					culture = afro_american
+					size = 2605
+			}
+create_pop = {
+				culture = yankee
+				size = 303200
+			}
+create_pop = {
+				culture = yankee
+				religion = catholic
+				size = 27996
+			}
+create_pop = {
+				culture = afro_american
+				size = 15996
 			}
 		}
 	}
@@ -83,25 +140,43 @@
 			}
 		}
 	}
-	s:STATE_VIRGINIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
+	s:STATE_VIRGINIA = {
 		region_state:USA = {
-			create_pop = {
+create_pop = {
 				culture = dixie
 				size = 423597
 			}
-			create_pop = {
+create_pop = {
 				culture = dixie
 				religion = catholic
 				size = 48000
 			}
-			create_pop = {
+create_pop = {
 				culture = afro_american
 				size = 35120
 			}
-			create_pop = {
+create_pop = {
 				pop_type = slaves
 				culture = afro_american
 				size = 312079
+			}
+create_pop = {
+				culture = dixie
+				size = 160916
+			}
+create_pop = {
+				pop_type = slaves
+				culture = afro_american
+				size = 18081 # 17673 slaves in WV's counties in 1830, 18488 slaves in 1840
+			}
+create_pop = {
+				culture = afro_american
+				size = 1808 # don't have easy numbers for WV's free non-white population, but ~10% of the enslaved population seems to roughly track
+			}
+create_pop = {
+				culture = dixie
+				religion = catholic
+				size = 28000
 			}
 		}
 	}
@@ -514,18 +589,7 @@
 			}
 		}
 	}
-	s:STATE_MICHIGAN = {
-		region_state:USA = {
-			create_pop = {
-				culture = algonquian
-				size = 8000
-			}
-			create_pop = {
-				culture = yankee
-				size = 28004
-			}
-		}
-	}
+	
 	s:STATE_INDIANA = {
 		region_state:USA = {
 			create_pop = {
@@ -547,30 +611,30 @@
 		}
 	}
 	s:STATE_MICHIGAN = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 123996
-			}
-			create_pop = {
-				culture = algonquian
-				size = 12000
-			}
-			create_pop = {
-				culture = siouan
-				size = 4000
-			}
-			create_pop = {
-				culture = irish
-				size = 8000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 4004
-			}
-		}
-	}
+        region_state:USA = {
+            create_pop = {
+                culture = yankee
+                size = 152000
+            }
+            create_pop = {
+                culture = algonquian
+                size = 20000
+            }
+            create_pop = {
+                culture = siouan
+                size = 4000
+            }
+            create_pop = {
+                culture = irish
+                size = 8000
+            }
+            create_pop = {
+                culture = yankee
+                religion = catholic
+                size = 4004
+            }
+        }
+    }
 	s:STATE_OHIO = {
 		region_state:USA = {
 			create_pop = {
@@ -750,117 +814,13 @@
 			}
 		}
 	}
-	s:STATE_VIRGINIA = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 160916
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 18081 # 17673 slaves in WV's counties in 1830, 18488 slaves in 1840
-			}
-			create_pop = {
-				culture = afro_american
-				size = 1808 # don't have easy numbers for WV's free non-white population, but ~10% of the enslaved population seems to roughly track
-			}
-			create_pop = {
-				culture = dixie
-				religion = catholic
-				size = 28000
-			}
-		}
-	}
-	s:STATE_PENNSYLVANIA = { # Actually Maryland + Delaware
-		region_state:USA = {
-			# Maryland: (1830, 447040) (1840, 470019), so 1835 est. 458530
-			# Delaware: (1830, 76748)  (1840, 78085),  so 1835 est. 77417
-			# minus 42176 free/38242 slaves that have been ceded to DC to inflate its pop figure
-			# aim for 535947 pops for Mega-Maryland (Megaland?) in total
-			create_pop = {
-				culture = dixie
-				size = 251997
-			}
-			# Maryland: 52938 free in 1830, 62078 free in 1840
-			# Delaware: 15855 free in 1830, 16919 free in 1840
-			create_pop = {
-				culture = afro_american
-				size = 48541
-			}
-			# Maryland: 102994 in 1830, 89737 in 1840
-			# Delaware: 3292 in 1830, 2605 in 1840
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 58467
-			}
-		}
-	}
+	
+	
 
-	s:STATE_PENNSYLVANIA = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 77000
-			}
+	
 
-			create_pop = {
-					culture = afro_american
-					size = 16919
-			}
-
-			create_pop = {
-					pop_type = slaves
-					culture = afro_american
-					size = 2605
-			}
-		}
-	}
-
-	s:STATE_PENNSYLVANIA = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 1250496
-			}
-			create_pop = {
-				culture = yankee
-				religion = jewish
-				size = 2000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 144008
-			}
-			create_pop = {
-				culture = irish
-				size = 59800
-			}
-			create_pop = {
-				culture = afro_american
-				size = 43996
-			}
-		}
-	}
-	s:STATE_PENNSYLVANIA = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 303200
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 27996
-			}
-			create_pop = {
-				culture = afro_american
-				size = 15996
-			}
-		}
-	}
+	
+	
 	s:STATE_ILLINOIS = {
 		region_state:USA = {
 			create_pop = {
@@ -873,101 +833,66 @@
 			}
 		}
 	}
+	
+	
 	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 104820
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 199228
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 754484
-			}
-			create_pop = {
-				culture = afro_american
-				size = 11996
-			}
-			create_pop = {
-				culture = irish
-				size = 52400
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 28400
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 223300
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 24000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 32000
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 282848
-			}
-		}
-	}
-	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
-			create_pop = {
-				culture = anglo_canadian
-				size = 16000
-			}
-			create_pop = {
-				culture = yankee
-				size = 381228
-			}
-		}
-	}
-	s:STATE_SOUTH_CAROLINA = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 492500
-			}
-			create_pop = {
-				culture = afro_american
-				size = 21138 # 19543 free in 1830, 22732 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 222862
-			}
-			create_pop = {
-				culture = cherokee
-				size = 3644 # 1835 Cherokee Census "Henderson Roll"
-			}
-		}
-	}
+        region_state:USA = {
+            create_pop = {
+                culture = yankee
+                size = 1945908
+            }
+            create_pop = {
+                culture = afro_american
+                size = 11996
+            }
+            create_pop = {
+                culture = irish
+                size = 52400
+            }
+            create_pop = {
+                culture = yankee
+                religion = catholic
+                size = 60400
+            }
+            create_pop = {
+                culture = franco_canadian
+                size = 24000
+            }
+            create_pop = {
+                culture = anglo_canadian
+                size = 16000
+            }
+        }
+    }
+	
+	
+	
+	s:STATE_NORTH_CAROLINA = {
+        region_state:USA = {
+            create_pop = {
+                culture = dixie
+                size = 746336
+            }
+            create_pop = {
+                culture = afro_american
+                size = 29237
+            }
+            create_pop = {
+                pop_type = slaves
+                culture = afro_american
+                size = 541555
+            }
+            create_pop = {
+                culture = cherokee
+                size = 10604
+            }
+            create_pop = {
+                culture = dixie
+                religion = jewish
+                size = 1000
+            }
+        }
+    }
 	s:STATE_UTAH = {
 		region_state:MEX = {
 			create_pop = {
@@ -992,32 +917,7 @@
 			}
 		}
 	}
-	s:STATE_SOUTH_CAROLINA = {
-		region_state:USA = {
-			create_pop = {
-				culture = dixie
-				size = 253836
-			}
-			create_pop = {
-				culture = dixie
-				religion = jewish
-				size = 1000
-			}
-			create_pop = {
-				culture = cherokee
-				size = 6960
-			}
-			create_pop = {
-				culture = afro_american
-				size = 8099 # 7921 free in 1830, 8276 free in 1840
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 318693
-			}
-		}
-	}
+	
 	s:STATE_HAWAIIAN_ISLANDS = {
 		region_state:HAW = {
 			create_pop = {

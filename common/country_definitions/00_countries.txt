@@ -114,7 +114,7 @@ USA = {
 	tier = empire
 
 	cultures = { yankee dixie }
-	capital = STATE_PENNSYLVANIA
+	capital = STATE_DISTRICT_OF_COLUMBIA
 
 	primary_unit_color = { 20 20 120 }
 	secondary_unit_color  = { 150 190 210 }
@@ -4316,7 +4316,7 @@ NCR = {
 	tier = city_state
 
 	cultures = { dixie }
-	capital = STATE_SOUTH_CAROLINA
+	capital = STATE_NORTH_CAROLINA
 }
 
 SCR = {
@@ -4338,7 +4338,7 @@ CLI = {
 	tier = principality
 
 	cultures = { dixie }
-	capital = STATE_SOUTH_CAROLINA
+	capital = STATE_NORTH_CAROLINA
 }
 
 GRG = {

@@ -54,7 +54,7 @@ assign_state_name_region_dixie = { # region_dixie
     if = {
         limit = {
             state_region = {
-                s:STATE_PENNSYLVANIA ?= this
+                s:STATE_DISTRICT_OF_COLUMBIA ?= this
             }
         }
         STATE_DISTRICT_OF_COLUMBIA_state_name_assign = yes
