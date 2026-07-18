@@ -1,0 +1,12 @@
+{
+  "name" : "修改美国地块",
+	"id" : "",
+  "version" : "1.0.0",
+  "supported_game_version" : "1.13.*",
+  "short_description" : "修改美国地块",
+  "tags" : ["Gameplay", "Map"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
